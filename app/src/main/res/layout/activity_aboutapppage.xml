@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="  About the app"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+        android:textSize="48sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chirp is a social media app, which allows users living in the same city, to interact with each other, provate chat rooms for each city are created, enabling the users to hold discussions, advertize and sell, get help, and making it seemless for people to meet and network."
+                android:textColor="#000000"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="privacy"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chirp will never sell your data, we only want to give you the best experience you deserve, and your data is safe and encrypted. "
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We use powerful encryption algorithms for securing your data, so your account info, and other sensitive details are secured and not even Chirp can access them,. Although the data we asked for is encrypted, the data you enter in posts, is visible to the public, so be midful what you post."
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter a message in the chatbar, and click on the send button to post a text emssage, if you wish to post an image click on the upload pic icon, and select the picture of your choic."
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Happy chirping !"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/closeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Close" />
+
+
+            <!-- Add more UI elements and content here -->
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

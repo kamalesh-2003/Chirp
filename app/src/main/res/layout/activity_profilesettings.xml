@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:backgroundTint="@android:color/white"
+        ads:srcCompat="@drawable/admob_close_button_black_circle_white_cross" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="138dp"
+        android:text="Profile"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/fullNameEditText"
+        android:layout_width="314dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Full Name" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="314dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/fullNameEditText"
+        android:layout_marginBottom="16dp"
+        android:hint="Email (optional)"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/unameid"
+        android:layout_width="314dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/emailEditText"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="24dp"
+        android:hint="Create Username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/bioEditText"
+        android:layout_width="391dp"
+        android:layout_height="117dp"
+        android:layout_below="@id/unameid"
+        android:layout_marginTop="29dp"
+        android:hint="Bio" />
+
+    <Button
+        android:id="@+id/createProfileButton"
+        android:layout_width="384dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/bioEditText"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#C2650BA8"
+        android:text="Update profile"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

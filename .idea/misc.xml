@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/drawable/divider.xml" value="0.1" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/drawable/logoins.xml" value="0.1005" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/drawable/rounded_rectangle.xml" value="0.1" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/drawable/white_rounded.xml" value="0.2265" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_aboutapppage.xml" value="0.2" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_adpages.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_appuserguide.xml" value="0.264" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_aucmap.xml" value="0.2" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_launchvideo.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_loginpage.xml" value="0.16" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_otherprofview.xml" value="0.264" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_pic_post_holder.xml" value="0.1" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_post_holder.xml" value="0.176" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_postpag.xml" value="0.4" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_privatemessaging.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_profilesettings.xml" value="0.264" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_registeringpage.xml" value="0.1" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_rewardspage.xml" value="0.2" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/activity_settingspage.xml" value="0.264" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/ad_post_lay.xml" value="0.2" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/logo_img.xml" value="0.1140625" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/pic_post_item.xml" value="0.1" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/post_item.xml" value="0.144" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/layout/rounded_edittext_background.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/14259/AndroidStudioProjects/Auctioneer5/app/src/main/res/menu/menu_dropdown.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

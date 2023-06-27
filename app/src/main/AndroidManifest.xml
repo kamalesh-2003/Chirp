@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.auctioneer">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/chirplogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/chirplogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Auctioneer"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".otherprofview"
+            android:exported="false" />
+        <activity
+            android:name=".pic_post_holder_acti"
+            android:exported="false" />
+        <activity
+            android:name=".rewardspage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aboutapppage"
+            android:exported="false" />
+        <activity
+            android:name=".appuserguide"
+            android:exported="false" />
+        <activity
+            android:name=".profilesettings"
+            android:exported="false" />
+        <activity
+            android:name=".settingspage"
+            android:exported="false" />
+        <activity
+            android:name=".registeringpage"
+            android:exported="false" />
+        <activity
+            android:name=".adpages"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7878214466027765~6160301120" />
+
+        <activity
+            android:name=".post_holder_acti"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".aucmap"
+            android:exported="false" />
+        <activity
+            android:name=".launchvideo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

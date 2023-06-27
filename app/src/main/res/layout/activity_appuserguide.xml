@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="  App User Guide"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+        android:textSize="48sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Using chirp is probably the easiest thing you can do owing to the simple and crisp UI. Lets take a tour!"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The basics"
+                android:textColor="#000000"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" The app creates a chatroom where you can connect with users who are nearby. It allows you to chat and communicate with people in your vicinity."
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In the chatroom you can use the chat bar enter a message or upload a picture, please be mindful of what you post, sensitive content will we blocked and the user might be subject to a ban."
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter a message in the chatbar, and click on the send button to post a text emssage, if you wish to post an image click on the upload pic icon, and select the picture of your choic."
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you like a post on the chatroom, you can click on it to open the comment for that particular post."
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Using Chirp"
+                android:textColor="#000000"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Every post on chirp is public, and everyone with a chirp account can view them and interact with them, so be careful what you post, posting personal info like credit card numbers, or ID card info, or personal pictures should be shared at your risk, and Chirp will not be responsible for content misuse."
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can use chirp in so many different ways, for starters, you could start a discussion about literally anything with users in your city, advertize and sell services, ask for help and directions, if you are new to the city or are a tourist you can use chirp to get around town. Use chirp the way you want."
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chirp requires your device's location, all the time, this is to make your experience better, and dont worry we dont save this data, it'll be used only to assign you to the right chatrooms. We require you to enable location all the. If the location does not get updated even after your consent, please refresh the app, if the problem persists, try restarting the app."
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Happy chirping !"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/closeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Close" />
+
+
+            <!-- Add more UI elements and content here -->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

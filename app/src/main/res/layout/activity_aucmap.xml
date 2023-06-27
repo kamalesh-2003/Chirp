@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".post_holder_acti">
+
+    <RelativeLayout
+        android:background="#C2D1A7F0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="#C2D1A7F0"
+            android:text="Fetching your location..."
+            android:textColor="#FDF6F6"
+            android:textSize="22sp" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cityTextView"
+            android:layout_marginTop="8dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-7878214466027765/3455753339" />
+
+        <ScrollView
+            android:id="@+id/scroll1"
+            android:layout_width="match_parent"
+            android:layout_height="559dp"
+            android:layout_above="@+id/commentInputLayout"
+            android:layout_below="@+id/adView"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="4dp">
+
+            <LinearLayout
+                android:id="@+id/messageContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider"
+                android:orientation="vertical"
+                android:showDividers="middle" />
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/commentInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/white_rounded"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <EditText
+                android:id="@+id/commentEditText"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:hint="Say what's on your mind"
+                android:inputType="textMultiLine"
+                android:maxLines="5"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/picsend"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/sepic2" />
+
+            <ImageButton
+                android:id="@+id/postCommentButton"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:src="@drawable/sepic3"
+                android:text="Send"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                app:backgroundTint="#FBF6F6" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/guideTextView2"
+        android:layout_width="380dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/shareTextView"
+        android:layout_marginTop="90dp"
+        android:text="About the app"
+        android:textColor="#FAF9FA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/shareTextView2"
+        android:layout_width="390dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="8dp"
+        android:text="Get rewarded"
+        android:textColor="#D77CE6"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="Settings"
+        android:textColor="#040304"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/shareTextView"
+        android:layout_width="390dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="80dp"
+        android:text="Get rewarded"
+        android:textColor="#FFFDFD"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/guideTextView"
+        android:layout_width="380dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/shareTextView"
+        android:layout_marginTop="17dp"
+        android:text="App User Guide"
+        android:textColor="#F8F7F7"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/deleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guideTextView"
+        android:layout_marginTop="367dp"
+        android:text="Delete Account"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:backgroundTint="@android:color/white"
+        ads:srcCompat="@drawable/admob_close_button_black_circle_white_cross" />
+
+</RelativeLayout>
